@@ -1,0 +1,30 @@
+{
+  "name": "js-string",
+  "version": "0.0.0",
+  "description": "Convert JSON to JS string",
+  "repository": {
+    "url": "EGOIST/js-string",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "ava && npm run lint",
+    "lint": "xo index.js test.js"
+
+  },
+  "author": "EGOIST <0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "xo": "^0.17.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "xo": {
+    "space": 2,
+    "semicolon": false,
+    "rules": {
+      "guard-for-in": 0
+    }
+  }
+}
