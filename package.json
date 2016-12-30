@@ -1,6 +1,6 @@
 {
   "name": "js-string",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert JSON to JS string",
   "repository": {
     "url": "EGOIST/js-string",
@@ -9,7 +9,6 @@
   "scripts": {
     "test": "ava && npm run lint",
     "lint": "xo index.js test.js"
-
   },
   "author": "EGOIST <0x142857@gmail.com>",
   "license": "MIT",
