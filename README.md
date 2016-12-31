@@ -94,7 +94,7 @@ Output, using `js-string`:
   baz: [1, 2, 3],
   zoo: [{
     foo: 'bar',
-    wow: 'Fri Dec 30 2016 17:49:57 GMT+0800 (CST)'
+    wow: '2016-12-30T09:49:57.255Z'
   }, {
     baz: [1, 2, 'foo'],
     haha: undefined,

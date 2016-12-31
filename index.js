@@ -15,7 +15,7 @@ function jsString(input, {
 
 function handleValue(value, indent) {
   if (value instanceof Date) {
-    return handleValue(value.toString())
+    return handleValue(value.toJSON())
   }
   if (typeof value === 'string') {
     return `'${value}'`
